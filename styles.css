@@ -1,0 +1,20 @@
+.navbar {
+    font-family: 'San Francisco', Arial, sans-serif; /* Apple uses the San Francisco font, but it's proprietary. Arial is a good fallback. */
+    background-color: #333; /* Dark background */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* White text */
+}
+
+.nav-item:hover, .dropdown-item:hover {
+    background-color: #fff; /* Slightly lighter shade of dark for hover effect */
+}
+
+.dropdown-menu {
+    background-color: #fff; /* Same dark background for dropdown */
+}
+
+.navbar.navbar-light .navbar-brand, .navbar.navbar-light .nav-link {
+    color: #333 !important;
+}
